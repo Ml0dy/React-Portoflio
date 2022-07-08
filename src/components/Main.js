@@ -1,10 +1,11 @@
 import React from "react"
 import "./Main.css"
+import Overviewbar from "./Overviewbar"
 
 const Main = () => {
   return (
     <div className="app">
-      <h1>MlodyG Todo Portfolio</h1>
+      <Overviewbar name="Jakub" surname="Wosiak" />
     </div>
   )
 }
